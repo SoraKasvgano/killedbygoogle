@@ -26,6 +26,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+	    "export": "next export",
     "preview": "bin/graveyard && yarn build && next export && npx http-server out/ -p 3000",
     "test": "jest"
   }
